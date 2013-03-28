@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF5F374C17046F1F00C08C6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5F374B17046F1F00C08C6E /* UIKit.framework */; };
+		DF5F374E17046F1F00C08C6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5F374D17046F1F00C08C6E /* Foundation.framework */; };
+		DF5F375017046F1F00C08C6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5F374F17046F1F00C08C6E /* CoreGraphics.framework */; };
+		DF5F375617046F1F00C08C6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF5F375417046F1F00C08C6E /* InfoPlist.strings */; };
+		DF5F375817046F1F00C08C6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5F375717046F1F00C08C6E /* main.m */; };
+		DF5F375C17046F1F00C08C6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5F375B17046F1F00C08C6E /* AppDelegate.m */; };
+		DF5F375E17046F1F00C08C6E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DF5F375D17046F1F00C08C6E /* Default.png */; };
+		DF5F376017046F1F00C08C6E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF5F375F17046F1F00C08C6E /* Default@2x.png */; };
+		DF5F376217046F1F00C08C6E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF5F376117046F1F00C08C6E /* Default-568h@2x.png */; };
+		DF5F376517046F1F00C08C6E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5F376317046F1F00C08C6E /* MainStoryboard.storyboard */; };
+		DF5F376817046F1F00C08C6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5F376717046F1F00C08C6E /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF5F374817046F1F00C08C6E /* RealBattery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealBattery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5F374B17046F1F00C08C6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF5F374D17046F1F00C08C6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF5F374F17046F1F00C08C6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF5F375317046F1F00C08C6E /* RealBattery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RealBattery-Info.plist"; sourceTree = "<group>"; };
+		DF5F375517046F1F00C08C6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF5F375717046F1F00C08C6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF5F375917046F1F00C08C6E /* RealBattery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealBattery-Prefix.pch"; sourceTree = "<group>"; };
+		DF5F375A17046F1F00C08C6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF5F375B17046F1F00C08C6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF5F375D17046F1F00C08C6E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DF5F375F17046F1F00C08C6E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DF5F376117046F1F00C08C6E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DF5F376417046F1F00C08C6E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DF5F376617046F1F00C08C6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF5F376717046F1F00C08C6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF5F374517046F1F00C08C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5F374C17046F1F00C08C6E /* UIKit.framework in Frameworks */,
+				DF5F374E17046F1F00C08C6E /* Foundation.framework in Frameworks */,
+				DF5F375017046F1F00C08C6E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF5F373F17046F1F00C08C6E = {
+			isa = PBXGroup;
+			children = (
+				DF5F375117046F1F00C08C6E /* RealBattery */,
+				DF5F374A17046F1F00C08C6E /* Frameworks */,
+				DF5F374917046F1F00C08C6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF5F374917046F1F00C08C6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF5F374817046F1F00C08C6E /* RealBattery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF5F374A17046F1F00C08C6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF5F374B17046F1F00C08C6E /* UIKit.framework */,
+				DF5F374D17046F1F00C08C6E /* Foundation.framework */,
+				DF5F374F17046F1F00C08C6E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF5F375117046F1F00C08C6E /* RealBattery */ = {
+			isa = PBXGroup;
+			children = (
+				DF5F375A17046F1F00C08C6E /* AppDelegate.h */,
+				DF5F375B17046F1F00C08C6E /* AppDelegate.m */,
+				DF5F376317046F1F00C08C6E /* MainStoryboard.storyboard */,
+				DF5F376617046F1F00C08C6E /* ViewController.h */,
+				DF5F376717046F1F00C08C6E /* ViewController.m */,
+				DF5F375217046F1F00C08C6E /* Supporting Files */,
+			);
+			path = RealBattery;
+			sourceTree = "<group>";
+		};
+		DF5F375217046F1F00C08C6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF5F375317046F1F00C08C6E /* RealBattery-Info.plist */,
+				DF5F375417046F1F00C08C6E /* InfoPlist.strings */,
+				DF5F375717046F1F00C08C6E /* main.m */,
+				DF5F375917046F1F00C08C6E /* RealBattery-Prefix.pch */,
+				DF5F375D17046F1F00C08C6E /* Default.png */,
+				DF5F375F17046F1F00C08C6E /* Default@2x.png */,
+				DF5F376117046F1F00C08C6E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF5F374717046F1F00C08C6E /* RealBattery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5F376B17046F1F00C08C6E /* Build configuration list for PBXNativeTarget "RealBattery" */;
+			buildPhases = (
+				DF5F374417046F1F00C08C6E /* Sources */,
+				DF5F374517046F1F00C08C6E /* Frameworks */,
+				DF5F374617046F1F00C08C6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealBattery;
+			productName = RealBattery;
+			productReference = DF5F374817046F1F00C08C6E /* RealBattery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF5F374017046F1F00C08C6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Eugenio Baglieri";
+			};
+			buildConfigurationList = DF5F374317046F1F00C08C6E /* Build configuration list for PBXProject "RealBattery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF5F373F17046F1F00C08C6E;
+			productRefGroup = DF5F374917046F1F00C08C6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF5F374717046F1F00C08C6E /* RealBattery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF5F374617046F1F00C08C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5F375617046F1F00C08C6E /* InfoPlist.strings in Resources */,
+				DF5F375E17046F1F00C08C6E /* Default.png in Resources */,
+				DF5F376017046F1F00C08C6E /* Default@2x.png in Resources */,
+				DF5F376217046F1F00C08C6E /* Default-568h@2x.png in Resources */,
+				DF5F376517046F1F00C08C6E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF5F374417046F1F00C08C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5F375817046F1F00C08C6E /* main.m in Sources */,
+				DF5F375C17046F1F00C08C6E /* AppDelegate.m in Sources */,
+				DF5F376817046F1F00C08C6E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF5F375417046F1F00C08C6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5F375517046F1F00C08C6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF5F376317046F1F00C08C6E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5F376417046F1F00C08C6E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF5F376917046F1F00C08C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF5F376A17046F1F00C08C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF5F376C17046F1F00C08C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealBattery/RealBattery-Prefix.pch";
+				INFOPLIST_FILE = "RealBattery/RealBattery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF5F376D17046F1F00C08C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealBattery/RealBattery-Prefix.pch";
+				INFOPLIST_FILE = "RealBattery/RealBattery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF5F374317046F1F00C08C6E /* Build configuration list for PBXProject "RealBattery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5F376917046F1F00C08C6E /* Debug */,
+				DF5F376A17046F1F00C08C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF5F376B17046F1F00C08C6E /* Build configuration list for PBXNativeTarget "RealBattery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5F376C17046F1F00C08C6E /* Debug */,
+				DF5F376D17046F1F00C08C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF5F374017046F1F00C08C6E /* Project object */;
+}
