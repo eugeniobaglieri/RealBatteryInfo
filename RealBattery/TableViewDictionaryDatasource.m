@@ -37,6 +37,11 @@
     return [self.dictionary objectForKey:key];
 }
 
+- (NSString *)keyAtIndexPth:(NSIndexPath *)indexPth
+{
+    return [self.dictionaryKeys objectAtIndex:indexPth.row];
+}
+
 #pragma mark - TableViewDataSource
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView

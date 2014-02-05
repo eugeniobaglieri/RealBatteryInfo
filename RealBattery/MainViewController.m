@@ -57,7 +57,7 @@
     }
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     DetailsViewController *detailsViewController = [[DetailsViewController alloc] initWithDetailsForDictionary:obj];
-    detailsViewController.title = [[self.powerSourceInfo allKeysForObject:obj] firstObject];
+    detailsViewController.title = [self.dataSource keyAtIndexPth:indexPath];
     [self.navigationController pushViewController:detailsViewController animated:YES];
 }
 @end

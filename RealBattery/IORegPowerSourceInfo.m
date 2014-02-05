@@ -28,7 +28,7 @@
     }
     CFRelease(properties);
     IOObjectRelease(deviceHandle);
-    NSLog(@"%@",psi);
+    NSLog(@"Power Source Info: %@",psi);
     return psi;
 }
 

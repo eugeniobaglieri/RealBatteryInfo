@@ -13,6 +13,7 @@ static NSString * const cellIdentifier = @"Cell";
 @interface TableViewDictionaryDatasource : NSObject <UITableViewDataSource>
 
 - (id)initWithDictionary:(NSDictionary *)dict;
+- (NSString *)keyAtIndexPth:(NSIndexPath *)indexPth;
 - (id)objectAtIndexPath:(NSIndexPath *)indexPath;
 
 @end
