@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TableViewArrayDatasource : NSObject
+static NSString * const cellIdentifier = @"Cell";
+
+@interface TableViewDictionaryDatasource : NSObject <UITableViewDataSource>
+
+- (id)initWithDictionary:(NSDictionary *)dict;
+- (id)objectAtIndexPath:(NSIndexPath *)indexPath;
 
 @end

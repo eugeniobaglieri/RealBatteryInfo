@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF03B6A81704FD99006A8F29 /* IORegPowerSourceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DF03B6A71704FD99006A8F29 /* IORegPowerSourceInfo.m */; };
+		DF43ACFE18A1B0A500FF60B0 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF43ACFC18A1B0A500FF60B0 /* DetailsViewController.m */; };
+		DF43ACFF18A1B0A500FF60B0 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF43ACFD18A1B0A500FF60B0 /* DetailsViewController.xib */; };
+		DF574AA218A161EA00D0D0F8 /* TableViewDictionaryDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = DF574AA118A161EA00D0D0F8 /* TableViewDictionaryDatasource.m */; };
 		DF5F374C17046F1F00C08C6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5F374B17046F1F00C08C6E /* UIKit.framework */; };
 		DF5F374E17046F1F00C08C6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5F374D17046F1F00C08C6E /* Foundation.framework */; };
 		DF5F375017046F1F00C08C6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5F374F17046F1F00C08C6E /* CoreGraphics.framework */; };
@@ -17,26 +21,42 @@
 		DF5F376017046F1F00C08C6E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF5F375F17046F1F00C08C6E /* Default@2x.png */; };
 		DF5F376217046F1F00C08C6E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF5F376117046F1F00C08C6E /* Default-568h@2x.png */; };
 		DF5F376517046F1F00C08C6E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5F376317046F1F00C08C6E /* MainStoryboard.storyboard */; };
-		DF5F376817046F1F00C08C6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5F376717046F1F00C08C6E /* ViewController.m */; };
+		DF5F376817046F1F00C08C6E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5F376717046F1F00C08C6E /* MainViewController.m */; };
+		DF986561183FE19700861C05 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF986560183FE19700861C05 /* IOKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DF5F374817046F1F00C08C6E /* RealBattery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealBattery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF03B6A61704FD99006A8F29 /* IORegPowerSourceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IORegPowerSourceInfo.h; sourceTree = "<group>"; };
+		DF03B6A71704FD99006A8F29 /* IORegPowerSourceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IORegPowerSourceInfo.m; sourceTree = "<group>"; };
+		DF03B6A917050133006A8F29 /* IOKitLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOKitLib.h; path = RealBattery/IOKitLib.h; sourceTree = "<group>"; };
+		DF03B6AC17050427006A8F29 /* IOTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOTypes.h; path = RealBattery/IOTypes.h; sourceTree = "<group>"; };
+		DF03B6AD17050433006A8F29 /* IOKitKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IOKitKeys.h; path = RealBattery/IOKitKeys.h; sourceTree = "<group>"; };
+		DF03B6AE17050447006A8F29 /* OSMessageNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OSMessageNotification.h; path = RealBattery/OSMessageNotification.h; sourceTree = "<group>"; };
+		DF03B6AF17050496006A8F29 /* IOReturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IOReturn.h; path = RealBattery/IOReturn.h; sourceTree = "<group>"; };
+		DF43ACFB18A1B0A500FF60B0 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		DF43ACFC18A1B0A500FF60B0 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		DF43ACFD18A1B0A500FF60B0 /* DetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		DF574AA018A161EA00D0D0F8 /* TableViewDictionaryDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDictionaryDatasource.h; sourceTree = "<group>"; };
+		DF574AA118A161EA00D0D0F8 /* TableViewDictionaryDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDictionaryDatasource.m; sourceTree = "<group>"; };
+		DF5F374817046F1F00C08C6E /* Real Battery Info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Real Battery Info.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5F374B17046F1F00C08C6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DF5F374D17046F1F00C08C6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DF5F374F17046F1F00C08C6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DF5F375317046F1F00C08C6E /* RealBattery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RealBattery-Info.plist"; sourceTree = "<group>"; };
+		DF5F375317046F1F00C08C6E /* Real Battery Info-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Real Battery Info-Info.plist"; sourceTree = "<group>"; };
 		DF5F375517046F1F00C08C6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DF5F375717046F1F00C08C6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DF5F375917046F1F00C08C6E /* RealBattery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealBattery-Prefix.pch"; sourceTree = "<group>"; };
+		DF5F375917046F1F00C08C6E /* Real Battery Info-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Real Battery Info-Prefix.pch"; sourceTree = "<group>"; };
 		DF5F375A17046F1F00C08C6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF5F375B17046F1F00C08C6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DF5F375D17046F1F00C08C6E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		DF5F375F17046F1F00C08C6E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		DF5F376117046F1F00C08C6E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DF5F376417046F1F00C08C6E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		DF5F376617046F1F00C08C6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DF5F376717046F1F00C08C6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF5F376617046F1F00C08C6E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DF5F376717046F1F00C08C6E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DF5F3773170470F300C08C6E /* IOPowerSources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOPowerSources.h; path = RealBattery/IOPowerSources.h; sourceTree = "<group>"; };
+		DF5F37741704710700C08C6E /* IOPSKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOPSKeys.h; path = RealBattery/IOPSKeys.h; sourceTree = "<group>"; };
+		DF986560183FE19700861C05 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,15 +67,31 @@
 				DF5F374C17046F1F00C08C6E /* UIKit.framework in Frameworks */,
 				DF5F374E17046F1F00C08C6E /* Foundation.framework in Frameworks */,
 				DF5F375017046F1F00C08C6E /* CoreGraphics.framework in Frameworks */,
+				DF986561183FE19700861C05 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF03B6B017050653006A8F29 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				DF03B6AF17050496006A8F29 /* IOReturn.h */,
+				DF03B6AE17050447006A8F29 /* OSMessageNotification.h */,
+				DF03B6A917050133006A8F29 /* IOKitLib.h */,
+				DF03B6AC17050427006A8F29 /* IOTypes.h */,
+				DF03B6AD17050433006A8F29 /* IOKitKeys.h */,
+				DF5F3773170470F300C08C6E /* IOPowerSources.h */,
+				DF5F37741704710700C08C6E /* IOPSKeys.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
 		DF5F373F17046F1F00C08C6E = {
 			isa = PBXGroup;
 			children = (
+				DF03B6B017050653006A8F29 /* Headers */,
 				DF5F375117046F1F00C08C6E /* RealBattery */,
 				DF5F374A17046F1F00C08C6E /* Frameworks */,
 				DF5F374917046F1F00C08C6E /* Products */,
@@ -65,7 +101,7 @@
 		DF5F374917046F1F00C08C6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF5F374817046F1F00C08C6E /* RealBattery.app */,
+				DF5F374817046F1F00C08C6E /* Real Battery Info.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +109,7 @@
 		DF5F374A17046F1F00C08C6E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DF986560183FE19700861C05 /* IOKit.framework */,
 				DF5F374B17046F1F00C08C6E /* UIKit.framework */,
 				DF5F374D17046F1F00C08C6E /* Foundation.framework */,
 				DF5F374F17046F1F00C08C6E /* CoreGraphics.framework */,
@@ -83,11 +120,18 @@
 		DF5F375117046F1F00C08C6E /* RealBattery */ = {
 			isa = PBXGroup;
 			children = (
+				DF03B6A61704FD99006A8F29 /* IORegPowerSourceInfo.h */,
+				DF03B6A71704FD99006A8F29 /* IORegPowerSourceInfo.m */,
 				DF5F375A17046F1F00C08C6E /* AppDelegate.h */,
 				DF5F375B17046F1F00C08C6E /* AppDelegate.m */,
+				DF5F376617046F1F00C08C6E /* MainViewController.h */,
+				DF5F376717046F1F00C08C6E /* MainViewController.m */,
+				DF43ACFB18A1B0A500FF60B0 /* DetailsViewController.h */,
+				DF43ACFC18A1B0A500FF60B0 /* DetailsViewController.m */,
+				DF43ACFD18A1B0A500FF60B0 /* DetailsViewController.xib */,
+				DF574AA018A161EA00D0D0F8 /* TableViewDictionaryDatasource.h */,
+				DF574AA118A161EA00D0D0F8 /* TableViewDictionaryDatasource.m */,
 				DF5F376317046F1F00C08C6E /* MainStoryboard.storyboard */,
-				DF5F376617046F1F00C08C6E /* ViewController.h */,
-				DF5F376717046F1F00C08C6E /* ViewController.m */,
 				DF5F375217046F1F00C08C6E /* Supporting Files */,
 			);
 			path = RealBattery;
@@ -96,10 +140,10 @@
 		DF5F375217046F1F00C08C6E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DF5F375317046F1F00C08C6E /* RealBattery-Info.plist */,
+				DF5F375317046F1F00C08C6E /* Real Battery Info-Info.plist */,
 				DF5F375417046F1F00C08C6E /* InfoPlist.strings */,
 				DF5F375717046F1F00C08C6E /* main.m */,
-				DF5F375917046F1F00C08C6E /* RealBattery-Prefix.pch */,
+				DF5F375917046F1F00C08C6E /* Real Battery Info-Prefix.pch */,
 				DF5F375D17046F1F00C08C6E /* Default.png */,
 				DF5F375F17046F1F00C08C6E /* Default@2x.png */,
 				DF5F376117046F1F00C08C6E /* Default-568h@2x.png */,
@@ -110,9 +154,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF5F374717046F1F00C08C6E /* RealBattery */ = {
+		DF5F374717046F1F00C08C6E /* Real Battery Info */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF5F376B17046F1F00C08C6E /* Build configuration list for PBXNativeTarget "RealBattery" */;
+			buildConfigurationList = DF5F376B17046F1F00C08C6E /* Build configuration list for PBXNativeTarget "Real Battery Info" */;
 			buildPhases = (
 				DF5F374417046F1F00C08C6E /* Sources */,
 				DF5F374517046F1F00C08C6E /* Frameworks */,
@@ -122,9 +166,9 @@
 			);
 			dependencies = (
 			);
-			name = RealBattery;
+			name = "Real Battery Info";
 			productName = RealBattery;
-			productReference = DF5F374817046F1F00C08C6E /* RealBattery.app */;
+			productReference = DF5F374817046F1F00C08C6E /* Real Battery Info.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,10 +177,10 @@
 		DF5F374017046F1F00C08C6E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Eugenio Baglieri";
 			};
-			buildConfigurationList = DF5F374317046F1F00C08C6E /* Build configuration list for PBXProject "RealBattery" */;
+			buildConfigurationList = DF5F374317046F1F00C08C6E /* Build configuration list for PBXProject "Real Battery Info" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -148,7 +192,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF5F374717046F1F00C08C6E /* RealBattery */,
+				DF5F374717046F1F00C08C6E /* Real Battery Info */,
 			);
 		};
 /* End PBXProject section */
@@ -163,6 +207,7 @@
 				DF5F376017046F1F00C08C6E /* Default@2x.png in Resources */,
 				DF5F376217046F1F00C08C6E /* Default-568h@2x.png in Resources */,
 				DF5F376517046F1F00C08C6E /* MainStoryboard.storyboard in Resources */,
+				DF43ACFF18A1B0A500FF60B0 /* DetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +220,10 @@
 			files = (
 				DF5F375817046F1F00C08C6E /* main.m in Sources */,
 				DF5F375C17046F1F00C08C6E /* AppDelegate.m in Sources */,
-				DF5F376817046F1F00C08C6E /* ViewController.m in Sources */,
+				DF574AA218A161EA00D0D0F8 /* TableViewDictionaryDatasource.m in Sources */,
+				DF5F376817046F1F00C08C6E /* MainViewController.m in Sources */,
+				DF43ACFE18A1B0A500FF60B0 /* DetailsViewController.m in Sources */,
+				DF03B6A81704FD99006A8F29 /* IORegPowerSourceInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +261,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -226,13 +275,14 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		DF5F376A17046F1F00C08C6E /* Release */ = {
+		DF5F376A17046F1F00C08C6E /* Testing */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,37 +294,89 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Testing;
 		};
 		DF5F376C17046F1F00C08C6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RealBattery/RealBattery-Prefix.pch";
-				INFOPLIST_FILE = "RealBattery/RealBattery-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "RealBattery/Real Battery Info-Prefix.pch";
+				INFOPLIST_FILE = "RealBattery/Real Battery Info-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "Real Battery Info";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		DF5F376D17046F1F00C08C6E /* Release */ = {
+		DF5F376D17046F1F00C08C6E /* Testing */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RealBattery/RealBattery-Prefix.pch";
-				INFOPLIST_FILE = "RealBattery/RealBattery-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "RealBattery/Real Battery Info-Prefix.pch";
+				INFOPLIST_FILE = "RealBattery/Real Battery Info-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "Real Battery Info";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Testing;
+		};
+		DFF4CCE01704C80C00BE0ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFF4CCE11704C80C00BE0ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealBattery/Real Battery Info-Prefix.pch";
+				INFOPLIST_FILE = "RealBattery/Real Battery Info-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "Real Battery Info";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -282,22 +384,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF5F374317046F1F00C08C6E /* Build configuration list for PBXProject "RealBattery" */ = {
+		DF5F374317046F1F00C08C6E /* Build configuration list for PBXProject "Real Battery Info" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF5F376917046F1F00C08C6E /* Debug */,
-				DF5F376A17046F1F00C08C6E /* Release */,
+				DF5F376A17046F1F00C08C6E /* Testing */,
+				DFF4CCE01704C80C00BE0ABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Testing;
 		};
-		DF5F376B17046F1F00C08C6E /* Build configuration list for PBXNativeTarget "RealBattery" */ = {
+		DF5F376B17046F1F00C08C6E /* Build configuration list for PBXNativeTarget "Real Battery Info" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF5F376C17046F1F00C08C6E /* Debug */,
-				DF5F376D17046F1F00C08C6E /* Release */,
+				DF5F376D17046F1F00C08C6E /* Testing */,
+				DFF4CCE11704C80C00BE0ABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Testing;
 		};
 /* End XCConfigurationList section */
 	};

@@ -35,7 +35,7 @@
 #include <mach/message.h>
 #include <mach/vm_types.h>
 
-#include <IOKit/IOReturn.h>
+#include "IOReturn.h"
 
 #ifdef __cplusplus
 extern "C" {

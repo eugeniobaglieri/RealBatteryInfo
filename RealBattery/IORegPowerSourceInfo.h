@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface IOKitPowerSourceInfo : NSObject
+
+@interface IORegPowerSourceInfo : NSObject
+
++ (NSDictionary *) getPowerSourceInfo;
 
 @end

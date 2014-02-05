@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailsViewController : UIViewController
+@interface DetailsViewController : UIViewController <UITableViewDelegate>
+
+- (id)initWithDetailsForDictionary:(NSDictionary *)dict;
 
 @end
